@@ -75,28 +75,28 @@ const dockApps = [
 ];
 
 const blogPosts = [
-  {
-    id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
-  },
-  {
-    id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-  },
-  {
-    id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-  },
+  // {
+  //   id: 1,
+  //   date: "Sep 2, 2025",
+  //   title:
+  //     "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+  //   image: "/images/blog1.png",
+  //   link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+  // },
+  // {
+  //   id: 2,
+  //   date: "Aug 28, 2025",
+  //   title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+  //   image: "/images/blog2.png",
+  //   link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+  // },
+  // {
+  //   id: 3,
+  //   date: "Aug 15, 2025",
+  //   title: "The Ultimate Guide to Mastering GSAP Animations",
+  //   image: "/images/blog3.png",
+  //   link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+  // },
 ];
 
 const techStack = [
@@ -422,6 +422,15 @@ const WORK_LOCATION = {
           fileType: "img",
           position: "top-52 right-80",
           imageUrl: "/images/project-zentry.png", // <-- put your screenshot path here
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://www.figma.com/design/QNUvSyhE4qOsLBWJuIephM/MacOS-Portfolio?node-id=0-1&p=f&t=xAGolMr8DuZdiuBu-0", // replace with your design link if any
+          position: "top-60 right-20",
         },
       ],
     },

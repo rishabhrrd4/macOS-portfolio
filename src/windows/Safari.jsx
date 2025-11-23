@@ -49,7 +49,7 @@ const Safari = () => {
       <div className="blog">
         <h2>My Developer Blog</h2>
         <div className="space-y-8">
-            {blogPosts.map(({ id, date, title, image, link }) => (
+            {blogPosts.length > 0 ? blogPosts.map(({ id, date, title, image, link }) => (
                 <div key={id} className="blog-post">
                     <div className="col-span-2">
                         <img src={image} alt={title} />
@@ -63,7 +63,7 @@ const Safari = () => {
                         </a>
                     </div>
                 </div>
-            ))}
+            )) : <p>Blank page alert! But don’t worry, soon it’ll be full of interesting reads 📖.</p>}
         </div>
       </div>
     </>
