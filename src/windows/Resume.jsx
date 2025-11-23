@@ -7,10 +7,6 @@ import "react-pdf/dist/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
-const onDocumentLoadSuccess = ({ numPages }) => {
-  console.log(`Number of pages: ${numPages}`);
-};
-
 const Resume = () => {
   return (
     <>
@@ -18,7 +14,7 @@ const Resume = () => {
         <WindowControls target="resume" />
         <h2>Resume.pdf</h2>
         <a
-          href="files/resume.pdf"
+          href="files/Rishabh_Sharma_Resume.pdf"
           download
           className="cursor-pointer"
           title="Download Resume"
@@ -28,7 +24,7 @@ const Resume = () => {
         </a>
       </div>
 
-      <Document file="files/resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+      <Document file="files/Rishabh_Sharma_Resume.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
     </>

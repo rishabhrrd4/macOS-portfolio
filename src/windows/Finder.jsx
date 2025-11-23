@@ -31,7 +31,7 @@ const Finder = () => {
   );
 
   const openItem = (item) => {
-    if (item.type === "pdf") {
+    if (item.type === "pdf" || item.fileType === "pdf") {
       return openWindow("resume");
     }
     if (item.kind === "folder") {
