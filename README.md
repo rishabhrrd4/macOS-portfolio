@@ -1,16 +1,44 @@
-# React + Vite
+# macOS Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **macOS-inspired interactive developer portfolio** built using **React, TypeScript, Tailwind CSS, GSAP, and Zustand**.  
+This project recreates a desktop-like environment with draggable windows, animations, icons, and a clean modular UI designed to showcase my work in a unique and immersive way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖥️ Live Demo  
+**https://rishabhrrd4.netlify.app/**  
+_Best viewed in fullscreen on desktop or tablet._
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** – UI library  
+- **TypeScript** – Type-safe development  
+- **Tailwind CSS** – Utility-first styling  
+- **GSAP** – Advanced animations  
+- **Zustand** – Lightweight state management  
+- **Vite** – Fast bundling & development  
+- **GitHub Pages / Netlify** – Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- macOS-style interactive desktop  
+- Draggable, layered application windows  
+- Smooth GSAP animations and transitions  
+- Dock icons with hover/launch interactions  
+- Project and info windows styled as apps  
+- Zustand-powered state for window management  
+- Blurred backgrounds, shadows, and macOS-like polish  
+- Desktop/tablet optimized (V1)
+
+---
+
+## 📱 Responsiveness
+
+This version is **not optimized for mobile devices** due to the macOS-style layout.  
+Mobile support is planned for future updates with an alternate UI.
+
+---
